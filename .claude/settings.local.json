@@ -5,7 +5,9 @@
       "Bash(python -c \"import fitz; doc = fitz.open\\([f for f in __import__\\('os'\\).listdir\\('.'\\) if f.endswith\\('.pdf'\\)][0]\\); print\\('PAGES:', len\\(doc\\)\\)\")",
       "PowerShell($word = New-Object -ComObject Word.Application; $word.Visible = $false; $doc = $word.Documents.Open\\(\"C:\\\\MacSoft\\\\RENACYT\\\\TitulaPro\\\\TitulaPro_Giuliana_Roberto_Alumno.docx\"\\); $text = $doc.Content.Text; $doc.Close\\(\\); $word.Quit\\(\\); Write-Output $text)",
       "PowerShell(Add-Type -AssemblyName 'Microsoft.Office.Interop.Word' 2>$null; try { $word = New-Object -ComObject Word.Application; $word.Visible = $false; $doc = $word.Documents.Open\\('C:\\\\MacSoft\\\\RENACYT\\\\TitulaPro\\\\GUIA RAPIDA PARA LA OBTENCIÓN DE TÍTULO PROFESIONAL MODALIDAD TESIS_FACEAC_actualizada 28.10.2025.pdf'\\); $text = $doc.Content.Text; $doc.Close\\($false\\); $word.Quit\\(\\); $text.Substring\\(0, [Math]::Min\\($text.Length, 15000\\)\\) } catch { \"Word COM failed: $_\" })",
-      "PowerShell(Copy-Item *)"
+      "PowerShell(Copy-Item *)",
+      "WebFetch(domain:localhost)",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri 'http://localhost:3000' -UseBasicParsing -TimeoutSec 10; \"Status: $\\($r.StatusCode\\) | Content length: $\\($r.Content.Length\\)\" } catch { \"Error: $_\" })"
     ]
   }
 }
