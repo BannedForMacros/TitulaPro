@@ -1,0 +1,432 @@
+{
+  "institucion": {
+    "nombre": "Universidad Nacional Pedro Ruiz Gallo",
+    "siglas": "UNPRG",
+    "facultad": "Facultad de Ciencias Económicas, Administrativas y Contables",
+    "siglas_facultad": "FACEAC",
+    "unidad": "Unidad de Investigación",
+    "director_ui": "Dr. Jose Maximo Gomez Navarro",
+    "correo_ui": "investigacion_faceac@unprg.edu.pe",
+    "correo_mesa_partes": "mesadepartes_faceac@unprg.edu.pe",
+    "plataforma": "SELGESTIUN",
+    "url_selgestiun": "http://vrinv.unprg.edu.pe/Selgestiun/"
+  },
+  "base_legal": [
+    {
+      "nombre": "Reglamento General de Investigación",
+      "resolucion": "345-2025-CU",
+      "nota": "Contiene la estructura del proyecto y tesis (Anexo 1)"
+    },
+    {
+      "nombre": "Directiva para Evaluación de Originalidad (incluye IA)",
+      "resolucion": "268-2025-CU",
+      "nota": "Regula el uso de Turnitin y la evaluación de IA"
+    },
+    {
+      "nombre": "Reglamento de Grados y Títulos",
+      "resolucion": "267-2023-CU",
+      "modificado_por": "385-2023-CU (11.12.2023)",
+      "nota": "Permite que estudiantes con 160 créditos aprobados inicien trámite"
+    },
+    {
+      "nombre": "Estandarización del contenido de la tesis",
+      "documento": "Oficio Circular N° 05-2025-UNPRG-SG-GyT",
+      "fecha": "26/05/2025"
+    }
+  ],
+  "etapas": [
+    {
+      "orden": 1,
+      "id": "creacion_usuario",
+      "nombre": "Creación de usuario en SELGESTIUN",
+      "descripcion": "El estudiante solicita la creación de su usuario y clave de acceso a la plataforma SELGESTIUN enviando un correo a la Unidad de Investigación FACEAC.",
+      "pasos": [
+        "Enviar correo a investigacion_faceac@unprg.edu.pe solicitando creación de usuario",
+        "Incluir en el correo: apellidos y nombres completos, escuela profesional, código universitario, correo electrónico, fecha de nacimiento, número de celular, departamento/provincia/distrito y dirección de residencia",
+        "Si son dos tesistas, AMBOS deben solicitar su usuario desde su correo institucional",
+        "Recibir usuario y contraseña",
+        "Ingresar a SELGESTIUN: http://vrinv.unprg.edu.pe/Selgestiun/ o desde la página de la UNPRG opción SELGESTIUN"
+      ],
+      "datos_requeridos": [
+        "Apellidos y nombres completos",
+        "Escuela Profesional",
+        "Código universitario",
+        "Correo electrónico",
+        "Fecha de nacimiento",
+        "Número de celular",
+        "Departamento, provincia, distrito y dirección de residencia actual"
+      ],
+      "costo": null,
+      "donde_enviar": "investigacion_faceac@unprg.edu.pe",
+      "guia_seccion": 1,
+      "guia_pagina": 3,
+      "notas_importantes": [
+        "Si son dos tesistas, ambos deben solicitar su usuario individualmente"
+      ]
+    },
+    {
+      "orden": 2,
+      "id": "registro_proyecto",
+      "nombre": "Registro del proyecto de tesis en SELGESTIUN",
+      "descripcion": "El tesista registra su proyecto de tesis en la plataforma SELGESTIUN, seleccionando modalidad, agregando coautor si aplica, y seleccionando al asesor.",
+      "pasos": [
+        "Ingresar a SELGESTIUN con usuario y contraseña",
+        "Elegir según su tipo de investigación y completar todos los ítems",
+        "Elegir la modalidad: Pregrado / Título profesional",
+        "Si son 2 tesistas, agregar al segundo autor (debe tener usuario en SELGESTIUN previamente, pero solo uno hace el trámite en SELGESTIUN)",
+        "Seleccionar al asesor o asesora de tesis (el docente debe haber aceptado previamente ser asesor)",
+        "Finalizar el registro",
+        "El sistema generará automáticamente el FORMATO N°01: Registro del Proyecto de Investigación para Verificación de No Duplicidad",
+        "El Formato N°01 debe ser firmado por tesistas y asesor"
+      ],
+      "requisitos_previos": ["Tener usuario activo en SELGESTIUN", "Tener asesor que haya aceptado dirigir la tesis"],
+      "documento_generado": "FORMATO N°01 - Registro del Proyecto de Investigación para Verificación de No Duplicidad",
+      "base_legal_ref": "Art. 41° del Reglamento de Grados y Títulos",
+      "costo": null,
+      "guia_seccion": 2,
+      "guia_pagina": 4,
+      "notas_importantes": [
+        "Solo uno de los tesistas hace el trámite en SELGESTIUN, pero ambos deben tener usuario",
+        "El asesor debe haber aceptado previamente"
+      ]
+    },
+    {
+      "orden": 3,
+      "id": "designacion_jurado",
+      "nombre": "Solicitud de designación de jurado",
+      "descripcion": "El tesista envía al correo de mesa de partes la solicitud de designación de jurado junto con todos los documentos requeridos en un solo PDF.",
+      "pasos": [
+        "Descargar el formato de solicitud de designación de jurado desde el enlace oficial",
+        "Completar la solicitud con los datos de los tesistas y asesor",
+        "Descargar el Formato N°01 firmado desde SELGESTIUN",
+        "Obtener la constancia de 160 créditos aprobados o grado de bachiller",
+        "Realizar el pago de S/20.00 por cada tesista en el Banco de la Nación por concepto 'FACEAC-PRESENTACION PROYECTO TESIS'",
+        "Pasar el proyecto de tesis por Turnitin (máximo 20% de similitud + evaluación de IA)",
+        "Firmar el proyecto de tesis (tesistas y asesor)",
+        "Compilar TODO en un solo PDF en el orden indicado",
+        "Enviar al correo de mesa de partes: mesadepartes_faceac@unprg.edu.pe"
+      ],
+      "documentos_requeridos": [
+        "Formato de solicitud 'Designación de jurado de tesis para título profesional' completado",
+        "FORMATO N°01 firmado por tesistas y asesor (descargado de SELGESTIUN)",
+        "Constancia de haber cumplido con aprobar 160 créditos o grado de bachiller",
+        "Voucher de pago S/20.00 por cada tesista (Banco de la Nación, concepto: FACEAC-PRESENTACION PROYECTO TESIS)",
+        "Proyecto de tesis firmado por tesista(s) y asesor(a), pasado por Turnitin"
+      ],
+      "orden_envio_pdf": [
+        "1. Formato de solicitud de designación de jurado",
+        "2. Constancia de 160 créditos o bachiller (de ambos tesistas si aplica)",
+        "3. Voucher(s) de pago",
+        "4. Proyecto de tesis firmado por tesistas y asesor",
+        "5. Reporte de Turnitin completo + captura de pantalla de que no contiene IA (recomendado)"
+      ],
+      "costo": {
+        "monto": 20.00,
+        "moneda": "PEN",
+        "concepto": "FACEAC-PRESENTACION PROYECTO TESIS",
+        "donde_pagar": "Banco de la Nación",
+        "por": "cada tesista con su código de estudiante"
+      },
+      "turnitin": {
+        "similitud_maxima": "20%",
+        "evaluacion_ia": true,
+        "escenarios_aceptados": "3 escenarios según ítem 1.11 de la directiva",
+        "responsable_evaluacion": "El asesor asignado con resolución",
+        "nota": "Se evalúa tanto similitud como uso de IA según directiva actual"
+      },
+      "donde_enviar": "mesadepartes_faceac@unprg.edu.pe",
+      "dirigido_a": "Dr. Jose Maximo Gomez Navarro - Director de la Unidad de Investigación FACEAC – UNPRG",
+      "plazo_respuesta": "15 días hábiles para el nombramiento de jurado (sin contar plazo del Comité de Ética)",
+      "base_legal_ref": "Art. 42° del Reglamento de Grados y Títulos",
+      "guia_seccion": 3,
+      "guia_pagina": 6,
+      "notas_importantes": [
+        "Todo se envía en UN SOLO PDF",
+        "Averiguar siempre el nombre actual del director de la UI",
+        "El reporte de Turnitin se lo piden al asesor",
+        "Estar pendiente en SELGESTIUN de la casilla 'Presentación de proyecto' para subir el proyecto"
+      ]
+    },
+    {
+      "orden": 4,
+      "id": "aprobacion_proyecto",
+      "nombre": "Solicitud de aprobación de proyecto de tesis",
+      "descripcion": "Después de que el jurado ha sido designado, el tesista solicita la aprobación formal del proyecto de tesis.",
+      "pasos": [
+        "Esperar la designación oficial del jurado",
+        "Preparar la solicitud de aprobación de proyecto",
+        "Compilar los documentos requeridos en un solo PDF",
+        "Enviar al correo de mesa de partes"
+      ],
+      "donde_enviar": "mesadepartes_faceac@unprg.edu.pe",
+      "guia_seccion": 6,
+      "guia_pagina": 14,
+      "notas_importantes": [
+        "Respetar el orden de envío indicado en la guía",
+        "Verificar que el jurado haya sido designado antes de solicitar aprobación"
+      ]
+    },
+    {
+      "orden": 5,
+      "id": "informes_parciales",
+      "nombre": "Elaboración de informes parciales",
+      "descripcion": "El tesista elabora y presenta los informes parciales de avance de la tesis según la estructura establecida.",
+      "pasos": [
+        "Elaborar los informes parciales según el avance de la investigación",
+        "Seguir la estructura indicada por el asesor y la normativa",
+        "Presentar ante el jurado para revisión"
+      ],
+      "guia_seccion": 8,
+      "guia_pagina": 17,
+      "notas_importantes": [
+        "Los informes parciales deben mostrar avance real de la investigación"
+      ]
+    },
+    {
+      "orden": 6,
+      "id": "informe_final",
+      "nombre": "Solicitud de revisión de informe final de tesis",
+      "descripcion": "El tesista presenta el informe final de la tesis para revisión por el jurado, siguiendo la estructura oficial completa.",
+      "pasos": [
+        "Completar la tesis según la estructura oficial del informe",
+        "Pasar nuevamente por Turnitin",
+        "Preparar la solicitud de revisión de informe final",
+        "Compilar documentos en un solo PDF",
+        "Enviar al correo de mesa de partes"
+      ],
+      "donde_enviar": "mesadepartes_faceac@unprg.edu.pe",
+      "guia_seccion": 10,
+      "guia_pagina": 26,
+      "notas_importantes": [
+        "La tesis debe seguir la estructura completa del Anexo 1 del Reglamento de Investigación",
+        "Se debe pasar por Turnitin nuevamente"
+      ]
+    },
+    {
+      "orden": 7,
+      "id": "sustentacion",
+      "nombre": "Solicitud de fecha y hora de sustentación",
+      "descripcion": "Una vez aprobado el informe final, el tesista solicita la resolución de fecha y hora para la sustentación de la tesis.",
+      "pasos": [
+        "Esperar la aprobación del informe final por el jurado",
+        "Preparar la solicitud de fecha y hora de sustentación",
+        "Compilar documentos requeridos",
+        "Enviar al correo de mesa de partes"
+      ],
+      "donde_enviar": "mesadepartes_faceac@unprg.edu.pe",
+      "guia_seccion": 12,
+      "guia_pagina": 33,
+      "notas_importantes": [
+        "La sustentación debe solicitarse antes del vencimiento del plazo de 18 meses (o 24 con ampliación)"
+      ]
+    }
+  ],
+  "estructura_proyecto": {
+    "titulo": "Estructura del Proyecto de Tesis",
+    "base_legal": "Anexo 1 del Reglamento actual de Investigación Res.345-2025-CU",
+    "guia_seccion": 4,
+    "guia_pagina": 7,
+    "secciones": [
+      {
+        "numero": "portada",
+        "nombre": "Portada",
+        "contenido": "Universidad, Facultad, Título, Autores, Asesor(es), Escuela, Fecha",
+        "detalles": "Título con primera letra en mayúscula, resto en minúscula, en negrita, centrado, sin comillas"
+      },
+      {
+        "numero": "firmas",
+        "nombre": "Página de firmas",
+        "contenido": "Firmas de tesistas, asesor(es) y jurado (presidente, secretario, vocal)"
+      },
+      {
+        "numero": "indices",
+        "nombre": "Índices",
+        "contenido": "Índice general, Índice de tablas, Índice de figuras"
+      },
+      {
+        "numero": "1",
+        "nombre": "Información General",
+        "contenido": "Título, Autor(es), Asesor(es), Línea de investigación, Lugar de ejecución, Duración estimada (fecha inicio y término)"
+      },
+      {
+        "numero": "2",
+        "nombre": "Planteamiento de la Investigación",
+        "contenido": "Síntesis de la situación problemática, Formulación del problema (general y específicos), Hipótesis (según corresponda), Objetivos (general y específicos), Justificación, Limitaciones (según corresponda)"
+      },
+      {
+        "numero": "3",
+        "nombre": "Diseño Teórico",
+        "contenido": "Antecedentes, Bases teóricas, Operacionalización o categorización de variables (definición conceptual y operativa con tabla)"
+      },
+      {
+        "numero": "4",
+        "nombre": "Diseño Metodológico",
+        "contenido": "Tipo de investigación, Diseño de contrastación de hipótesis, Población/muestra, Técnicas e instrumentos, Equipos y materiales, Aspectos éticos"
+      },
+      {
+        "numero": "5",
+        "nombre": "Aspectos Administrativos",
+        "contenido": "Cronograma (Diagrama de Gantt), Presupuesto (tabla de bienes y servicios), Financiamiento"
+      },
+      {
+        "numero": "6",
+        "nombre": "Impacto y Producto Esperado",
+        "contenido": "Impacto social, económico, ambiental, tecnológico, Contribución a ODS, Producto esperado (artículo, libro, patente, software, prototipo, etc.)"
+      },
+      {
+        "numero": "7",
+        "nombre": "Referencias",
+        "contenido": "Lista de referencias bibliográficas"
+      },
+      {
+        "numero": "8",
+        "nombre": "Anexos",
+        "contenido": "Instrumentos de investigación mencionados en el diseño metodológico"
+      }
+    ]
+  },
+  "estructura_tesis": {
+    "titulo": "Estructura del Informe de Tesis",
+    "guia_seccion": 9,
+    "guia_pagina": 18,
+    "nota": "Consultar la Guía Rápida para la estructura completa del informe final de tesis"
+  },
+  "casos_especiales": [
+    {
+      "tipo": "Cambio de jurado",
+      "descripcion": "Procedimiento para solicitar el cambio de un miembro del jurado evaluador.",
+      "guia_seccion": "14.1",
+      "guia_pagina": 47
+    },
+    {
+      "tipo": "Anulación de tesis",
+      "descripcion": "Procedimiento para anular el registro de la tesis. Requerido si vence el plazo de 18 meses (o 24 con ampliación).",
+      "guia_seccion": "14.2",
+      "guia_pagina": 48
+    },
+    {
+      "tipo": "Cambio de asesor",
+      "descripcion": "Procedimiento para solicitar el cambio de asesor de tesis.",
+      "guia_seccion": "14.3",
+      "guia_pagina": 48
+    },
+    {
+      "tipo": "Similitud con versión anterior propia",
+      "descripcion": "Procedimiento cuando el proyecto o tesis tiene similitud con una versión anterior del mismo tesista.",
+      "guia_seccion": "14.4",
+      "guia_pagina": 49
+    }
+  ],
+  "plazos": [
+    {
+      "concepto": "Plazo máximo para completar la tesis",
+      "tiempo": "18 meses desde la notificación de aprobación del proyecto",
+      "ampliacion": "6 meses adicionales (excepcional, por única vez)",
+      "consecuencia": "Vencido el plazo, debe solicitar anulación e iniciar nuevamente",
+      "base_legal": "Art. 40° del Reglamento de Grados y Títulos"
+    },
+    {
+      "concepto": "Nombramiento de jurado",
+      "tiempo": "15 días hábiles desde recibida la solicitud",
+      "nota": "Sin contar el plazo del Comité de Ética",
+      "base_legal": "Art. 42° del Reglamento de Grados y Títulos"
+    }
+  ],
+  "costos": [
+    {
+      "concepto": "Presentación de proyecto de tesis",
+      "monto": 20.00,
+      "moneda": "PEN",
+      "donde_pagar": "Banco de la Nación",
+      "codigo_concepto": "FACEAC-PRESENTACION PROYECTO TESIS",
+      "por": "cada tesista con su código de estudiante"
+    }
+  ],
+  "reglas_turnitin": {
+    "similitud_maxima_permitida": "20%",
+    "evaluacion_ia": true,
+    "escenarios_ia_aceptados": 3,
+    "referencia_directiva": "Ítem 1.11 de la Directiva de Evaluación de Originalidad (Res. 268-2025-CU)",
+    "responsable": "El asesor asignado con resolución es responsable de la evaluación",
+    "aplica_a": ["Proyecto de tesis", "Informe final de tesis"],
+    "base_legal": [
+      "Art. 73 del Reglamento de Investigación - Evaluación de originalidad",
+      "Art. 74 del Reglamento de Investigación - Responsables de la evaluación"
+    ]
+  },
+  "reglas_tesis": {
+    "originalidad": "La tesis debe ser original (Art. 38°)",
+    "tema": "Debe abordar un problema de impacto social o académico de interés local, regional o nacional",
+    "linea_investigacion": "Debe estar articulada con la línea de investigación del programa académico",
+    "modalidad": "Individual o grupal hasta 2 bachilleres (Art. 39°)",
+    "propiedad": "La tesis es propiedad del(los) autor(es)",
+    "requisito_minimo": "Haber aprobado 160 créditos para iniciar trámite (Res. 385-2023-CU)"
+  },
+  "preguntas_frecuentes": [
+    {
+      "pregunta": "¿Puedo iniciar mi trámite si aún no soy bachiller?",
+      "respuesta": "Sí, según la Resolución 385-2023-CU, puedes iniciar tu trámite si has aprobado los 160 créditos correspondientes a tu plan de estudios. Sin embargo, hay ciertas etapas que requieren el grado de bachiller."
+    },
+    {
+      "pregunta": "¿Cuánto cuesta el trámite de designación de jurado?",
+      "respuesta": "S/20.00 por cada tesista, pagado en el Banco de la Nación con el concepto 'FACEAC-PRESENTACION PROYECTO TESIS' usando tu código de estudiante."
+    },
+    {
+      "pregunta": "¿Cuánto puede tener de similitud mi proyecto en Turnitin?",
+      "respuesta": "Máximo 20% de similitud. Además, se evalúa el uso de Inteligencia Artificial según la directiva vigente (Res. 268-2025-CU), aceptándose solo 3 escenarios según el ítem 1.11."
+    },
+    {
+      "pregunta": "¿Cuánto tiempo tengo para completar mi tesis?",
+      "respuesta": "18 meses desde la notificación de aprobación del proyecto. Excepcionalmente, puedes solicitar una ampliación única de 6 meses adicionales. Si vence el plazo, debes solicitar anulación e iniciar nuevamente."
+    },
+    {
+      "pregunta": "¿Quién es el responsable de pasar mi tesis por Turnitin?",
+      "respuesta": "El asesor asignado con resolución es el responsable de la evaluación de originalidad, según el Art. 74 del Reglamento de Investigación."
+    },
+    {
+      "pregunta": "¿Puedo hacer mi tesis con otra persona?",
+      "respuesta": "Sí, la tesis puede ser elaborada de manera individual o grupal hasta por 2 bachilleres, según el Art. 39° del Reglamento de Grados y Títulos."
+    },
+    {
+      "pregunta": "¿Dónde envío mis documentos?",
+      "respuesta": "Los documentos se envían al correo de mesa de partes: mesadepartes_faceac@unprg.edu.pe, compilados en un solo PDF y en el orden indicado en la Guía Rápida."
+    },
+    {
+      "pregunta": "¿Qué hago si necesito cambiar de jurado?",
+      "respuesta": "Existe un procedimiento para casos especiales. Consulta la Guía Rápida – Sección 14.1, página 47."
+    },
+    {
+      "pregunta": "¿Qué hago si necesito cambiar de asesor?",
+      "respuesta": "Existe un procedimiento para casos especiales. Consulta la Guía Rápida – Sección 14.3, página 48."
+    },
+    {
+      "pregunta": "¿Qué pasa si se vence el plazo de mi tesis?",
+      "respuesta": "Debes solicitar la anulación del registro de la tesis e iniciar nuevamente todo el trámite. Consulta la Guía Rápida – Sección 14.2, página 48."
+    }
+  ],
+  "contactos": {
+    "unidad_investigacion": {
+      "correo": "investigacion_faceac@unprg.edu.pe",
+      "director": "Dr. Jose Maximo Gomez Navarro",
+      "para": "Creación de usuario en SELGESTIUN, consultas sobre el proceso"
+    },
+    "mesa_de_partes": {
+      "correo": "mesadepartes_faceac@unprg.edu.pe",
+      "para": "Envío de solicitudes y documentos del proceso de titulación"
+    }
+  },
+  "enlaces": {
+    "selgestiun": "http://vrinv.unprg.edu.pe/Selgestiun/",
+    "formato_solicitud_jurado": "https://docs.google.com/document/d/13_yon4jORBX1Kaod8kjpczHb_ihGjAnM/edit?usp=sharing&ouid=104024320323117506964&rtpof=true&sd=true"
+  },
+  "metadata": {
+    "version_guia": "Actualizada al 28.10.2025",
+    "elaborado_por": [
+      "Dra. Giuliana Vilma Millones Orrego",
+      "Dra. Luisa Sevilla Castro",
+      "Dr. Mariano Larrea Chucas"
+    ],
+    "revisado_por": "Dr. Jose Maximo Gomez Navarro",
+    "total_paginas_guia": 50
+  }
+}
