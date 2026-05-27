@@ -7,7 +7,9 @@
       "PowerShell(Add-Type -AssemblyName 'Microsoft.Office.Interop.Word' 2>$null; try { $word = New-Object -ComObject Word.Application; $word.Visible = $false; $doc = $word.Documents.Open\\('C:\\\\MacSoft\\\\RENACYT\\\\TitulaPro\\\\GUIA RAPIDA PARA LA OBTENCIÓN DE TÍTULO PROFESIONAL MODALIDAD TESIS_FACEAC_actualizada 28.10.2025.pdf'\\); $text = $doc.Content.Text; $doc.Close\\($false\\); $word.Quit\\(\\); $text.Substring\\(0, [Math]::Min\\($text.Length, 15000\\)\\) } catch { \"Word COM failed: $_\" })",
       "PowerShell(Copy-Item *)",
       "WebFetch(domain:localhost)",
-      "PowerShell(try { $r = Invoke-WebRequest -Uri 'http://localhost:3000' -UseBasicParsing -TimeoutSec 10; \"Status: $\\($r.StatusCode\\) | Content length: $\\($r.Content.Length\\)\" } catch { \"Error: $_\" })"
+      "PowerShell(try { $r = Invoke-WebRequest -Uri 'http://localhost:3000' -UseBasicParsing -TimeoutSec 10; \"Status: $\\($r.StatusCode\\) | Content length: $\\($r.Content.Length\\)\" } catch { \"Error: $_\" })",
+      "PowerShell(try { $body = '{\"messages\":[{\"role\":\"user\",\"content\":\"hola\"}]}'; $r = Invoke-WebRequest -Uri 'http://localhost:3000/api/chat' -Method POST -Body $body -ContentType 'application/json' -UseBasicParsing -TimeoutSec 15; $r.Content } catch { \"Status: $\\($_.Exception.Response.StatusCode\\)`nBody: $\\(try{\\(New-Object System.IO.StreamReader\\($_.Exception.Response.GetResponseStream\\(\\)\\)\\).ReadToEnd\\(\\)}catch{'no body'}\\)\" })",
+      "PowerShell(try { $body = '{\"messages\":[{\"role\":\"user\",\"content\":\"hola\"}]}'; $r = Invoke-WebRequest -Uri 'http://localhost:3000/api/chat' -Method POST -Body $body -ContentType 'application/json' -UseBasicParsing -TimeoutSec 30; $r.Content.Substring\\(0, [Math]::Min\\($r.Content.Length, 500\\)\\) } catch { \"Status: $\\($_.Exception.Response.StatusCode\\)`nBody: $\\(try{$sr = New-Object System.IO.StreamReader\\($_.Exception.Response.GetResponseStream\\(\\)\\); $sr.ReadToEnd\\(\\).Substring\\(0,500\\)}catch{'no body'}\\)\" })"
     ]
   }
 }
