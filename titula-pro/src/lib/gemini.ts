@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "");
 
 export const model = genAI.getGenerativeModel({
-  model: "gemini-2.0-flash",
+  model: "gemini-2.5-flash",
 });
 
 export const SYSTEM_PROMPT = `Eres "Meta", el asistente virtual de TitulaPro. Tu misión es guiar a los estudiantes de la FACEAC (Facultad de Ciencias Económicas, Administrativas y Contables) de la Universidad Nacional Pedro Ruiz Gallo (UNPRG) durante todo su proceso de obtención del título profesional mediante la modalidad de tesis.
